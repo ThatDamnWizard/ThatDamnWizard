@@ -1,0 +1,49 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.banniere{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-image: url("../img/Tomorrowland-229935.jpg");
+}
+.background{
+    background-color: lightcoral;
+}
+.margin{
+    margin-top: 200px;
+}
+.cote{
+    padding: 0;
+    margin: 0;
+}
+.parallax5 {
+    background-image: url("../img/new-top-relationship-goals-of-modern-couples-and-how-to-achieve-them-1.jpeg");
+
+    height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 {
+    background-image: url("../img/romantic_couple_sunset-Valentines_Day_theme_desktop_picture_2560x1600.jpg");
+
+    height: 1000px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 500px){
+
+.banniere{
+    background-image: url("../img/Tomorrowland_cell.jpg");
+}
+}
